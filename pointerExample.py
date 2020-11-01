@@ -33,7 +33,7 @@ if __name__=="__main__":
   print("\n\n## np.copy() ##\n")
   print("Original array before",x[3])
   # change a value in new array
-  y[3]=103452
+  y[3]=103455
   # see what has changed
   print("New array after",y[3],"Original array after",x[3])
   print("The value has not changed!")
@@ -41,7 +41,7 @@ if __name__=="__main__":
 
 
   # this has implciations for passing to a function
-  print("\n\n## function() passing ##\n")
+  print("")
 
   def someFunc(x,y):
     '''A function which takes a number and an array'''
